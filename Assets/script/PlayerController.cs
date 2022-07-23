@@ -19,7 +19,6 @@ public class PlayerController : MonoBehaviour
         float horizontal = Input.GetAxis("Horizontal");
         gameObject.transform.Translate(horizontal * movespeed * Time.deltaTime, 0, 0);
         
-        
 
     }
 
